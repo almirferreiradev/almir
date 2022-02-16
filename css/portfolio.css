@@ -1,0 +1,137 @@
+/*  POPRTIFOLIO */
+
+#portifolio{
+/*    background-color: rgb(250, 250, 250); */
+    background-color: rgb(248, 248, 248);
+    /* margin-right: 80px;
+    margin-left: 80px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 300px;
+}
+
+#portifolio .badge{
+    font-weight: 400;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.4);
+    background-color: var(--roxo);
+    color: white;
+}
+
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    transition: all ease-in 0.3s;
+    /* margin: 20px;    */
+}
+
+.card:hover{
+    transform: scale(1.005);
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
+    background-color: whitesmoke;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card a{
+    width: 100px;
+    text-decoration: none;
+}
+
+.card-title{
+    color: var(--texto); 
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-body{
+    text-align: justify;
+    font-size: 14px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.botao-projeto{
+    display: none;
+}
+
+.card:hover > .botao-projeto{
+    display: block;
+    transform: translateY(100%);
+
+}
+
+#portifolio .button-group{
+    margin-bottom: 30px;
+} 
+
+#portifolio .button-group button{
+    border: none;
+    text-transform: uppercase;
+    padding: none;
+    margin: none;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(218, 216, 216, 0.288);
+    background-color: white;
+    transition: all ease-out 0.75s;
+
+}
+
+#portifolio .button-group button:hover{
+    box-shadow: 0 0 10px 0 var(--texto);
+    color: #ffffff;
+    background-color: var(--roxo);
+}
+
+#portifolio .button-group button.active{
+    background-color: var(--roxo);
+    color:white;
+}
+
+.mensagem-portfolio{
+    display: none;
+    background-color:rgb(243, 230, 243);
+    position: absolute;
+    margin-top: 10px;
+    width:94%;
+    height:83%;
+    border-radius: 10px;
+    top:0px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+    animation: forwards go-up2 1s;
+}
+
+
+@keyframes go-up2 {
+  from {
+    transform: scaleY(70%);
+    opacity: 0;
+  }
+    to {
+    transform:scaleY(100%);
+    opacity: 0.95;
+}
+} 
+
+.ativar-mensagem{
+    display: block!important;
+}
+
+.mensagem-portfolio .btn-primary{
+    text-decoration: none;
+    float: right;
+    margin-top: 3%;
+}

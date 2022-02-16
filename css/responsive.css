@@ -1,0 +1,239 @@
+
+@media (max-width: 575.98px) { 
+
+
+    #sobre{
+        height: 2700px!important;
+    }
+
+    .texto-sobre{
+        height: 450px!important;
+        
+    }
+
+    #valores{
+        margin-top: -300px!important;
+    }
+
+    #video iframe{
+        width:300px !important; 
+        height: 168px !important;;
+    }
+
+    .balao-vermelho{
+        right: 20px !important;
+        top: -20px;
+      }
+
+    .triangulo-balao-vermelho{
+        left: 130px;
+      }
+      
+}
+
+
+/* sm (small) - Para celulares*/
+@media (max-width: 767.98px) {
+
+
+    #sobre{
+        height: 1900px!important;
+    }
+
+    
+    #valores{
+        margin-top: -600px!important;
+    }
+
+    #sobre iframe{
+        width:490px!important;
+        height:276px!important;
+    }
+
+    #video{
+        margin-top: 10px!important;
+    }
+
+    .valor{
+        
+        background-color: var(--marsala)!important;
+        margin: auto;
+        width: 100%!important;
+        margin-top: 20px;
+        color: var(--texto);
+        
+        
+    }
+
+    .valor a{
+        padding:0px;
+    }
+
+    .valor h5{
+        color: white;
+
+    }
+
+    #linha-do-tempo{
+        margin-left: 10px!important;
+    }
+    
+    #ponto-trajetoria{
+        margin-left: 57px!important;
+        margin-left: 0px!important;
+    }
+
+    #formacao, #complementares, #carreira{
+        margin-left: 100px!important;
+        margin-left: 20px!important;
+    }
+
+    #footer{
+        height: 250% !important;
+    }
+
+/*    #logo-footer{
+        display: block;
+        padding-left: 120px!important; 
+        margin-right: 150px!important;
+    }
+*/
+    #logo-circulo{
+        padding-left: 130px!important; 
+    
+    }
+
+    .autofalante{  
+        right: 80px!important; 
+        top:100px;      
+    }
+
+    #landing-page .container{
+        width: 100%;
+    }
+        .campo-lp{
+        margin-bottom: 60px!important;    
+    }
+    
+}
+
+
+/* md (medium) - Para tablets*/
+@media (max-width: 991.98px) { 
+
+    #header .navbar-collapse{
+        width: 100%;
+    }   
+
+    #valores{
+        margin-top: -650px !important;
+    }
+
+    #sobre{
+        height: 1800px!important;
+    }
+
+    #sobre iframe{
+        width:650px;
+        height:367px;
+    }
+    
+    #video{
+        margin-top: 30px!important;
+    }
+
+    .valor{
+        
+        background-color: var(--marsala)!important;
+        width: 80%;
+        margin-top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .valor h5{
+        color: white;
+
+    }
+
+    #trajetoria{
+        margin-top: 100px!important;
+    }
+    
+    #curriculo{
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    #linha-do-tempo{
+        margin-left: 80px;
+    }
+    
+    #ponto-trajetoria{
+        margin-left: 150px;
+    }
+
+    #formacao, #complementares, #carreira{
+        margin-left: 180px;
+    }
+    
+    #portifolio {
+        margin-right: 20px!important;
+        margin-left: 20px!important;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+
+    #portifolio .container{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        max-width: 900px;    
+    }
+
+    #footer{
+        height: 320px;
+    }
+
+    #logo-footer{
+        margin-top: 10px; 
+        padding-left: 20px!important;
+    }
+
+    #logo-circulo{
+        margin-left: -80px;
+    }
+
+
+    #bloco-contato{
+        margin-top: 20px!important; 
+        padding-left: 10px!important;
+    }
+
+
+    .balao-contate{
+        bottom: 160px;
+        right: 250px;
+      }
+      
+      .autofalante{  
+        right: 260px; 
+        top:105px;      
+    }
+
+    .campo-lp{
+        margin-bottom: 60px!important;    
+    }
+
+
+}
+ 
+/* lg (large) - Para desktop*/
+@media (max-width: 1199.98px) {
+     /* Para os mínimos*/
+
+     #header .nav-link{
+        margin-left: 15px;
+        margin-right: 15px;
+    
+     }
+ }

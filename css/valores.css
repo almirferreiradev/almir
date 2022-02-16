@@ -1,0 +1,101 @@
+/*  VALORES */
+#valores{
+    padding: 20px;
+    margin-top: -140px;
+}
+
+.valor {
+    display:block;
+    position: relative;
+    background-color: white;
+    color: var(--roxo);
+    color: var(--vermelho);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 100%;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    user-select: none;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);    
+    transition: all ease-in 0.5s;
+
+}
+
+.valor:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,.4);
+    transform: scale(1.05);
+    color: white;
+    background-color: thistle;
+    
+}
+
+.mensagem-valor{
+    transform: scale(0%);
+    background-color: thistle;
+    position: absolute;
+    margin: auto;
+    width:100%;
+    height:100%;
+    top:0px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 500px;
+    color: black;
+    font-size: 15px;
+    cursor: grab;
+}
+
+.valor:hover .mensagem-valor{
+    transform: scale(100%);
+    animation: forwards go-up 2s;
+}
+
+.valor:hover > .titulo-valor{
+    color: rgb(112, 112, 112);
+}
+
+
+@keyframes go-up {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+    to {
+    opacity: 0.9;
+    transform: scale(1.0);
+}
+} 
+
+.ativar-mensagem{
+    display: block!important;
+}
+
+.titulo-valor{
+    text-transform: uppercase;
+    color: var(--roxo);
+    font-weight: 600;
+}
+
+
+
+/*
+.mensagem{
+    display:none;
+    position:absolute;
+    top: 0%;
+    left:0;
+    right:0;
+    margin: auto;
+    width:100%;
+    height:100%;
+    border-radius: 500px;
+    background-color: var(--marsala);
+}
+*/
+
+.valor img{
+    height: 100px;
+
+}

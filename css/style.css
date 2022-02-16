@@ -1,0 +1,119 @@
+@import url(./pag_inicial.css);
+@import url(./sobre.css);
+@import url(./valores.css);
+@import url(./trajetoria.css);
+@import url(./tecnologias.css);
+@import url(./portfolio.css);
+@import url(./depoimentos.css);
+@import url(./rodape.css);
+@import url(./responsive.css);
+@import url(./cores.css);
+
+
+/*  COMPOENENTES GERAIS */
+
+html, body, #container{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+#title{
+    text-transform: uppercase;
+    color: var(--roxo);
+    font-weight: 700;
+    animation:backwards titulo-intro 1s;
+    animation-delay: 0.2s;
+    user-select: none;
+
+}
+
+.subtitle{
+    /* color: rgb(124, 124, 124); */
+    margin-top: -5px;
+    margin-bottom: 30px;
+    user-select: none;
+
+}
+
+.bloco-40{
+    margin-top: 40px;
+}
+
+.bloco-120{
+    margin-top: 120px;    
+}
+
+#negrito{
+    color: white; 
+    font-size:  17px;
+}
+
+.button{
+    text-transform: lowercase;
+    font-weight: 700px;
+    border-radius: 15px;
+    transition: all ease-out 0.5s;
+    padding: 10px;
+    
+}
+
+.btn-primary{
+    background-color: var(--marsala);
+    padding: 7px;
+    border: none; 
+    border-radius: 15px;
+    margin-right: 5px;
+    color:white;      
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    transition: all ease-in 0.4s;
+}
+
+.btn-primary:hover{
+    background-color: var(--roxo);
+    color: white;
+    transform: scale(1.01); 
+}
+
+.btn-outline-info{
+    background-color: white;
+    border-color: var(--marsala);
+    color: var(--roxo);
+
+}
+
+.btn-outline-info:hover{
+    background-color: var(--roxo);
+    border-color: var(--roxo);
+    color: white;
+    box-shadow: 0 0 10px var(--roxo);
+    transform: scale(1.02); 
+}
+
+
+.btn-primary-sobre:hover{
+    transition: 1s;
+    background-color: #612a51;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+    transform: scale(1.02);     
+}
+
+
+@keyframes titulo-intro {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0px);
+        opacity: 1;
+    }
+} 

@@ -1,0 +1,96 @@
+/*  RODAPÉ */
+
+#landing-page{
+    background-color: rgb(243, 243, 243);
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#landing-page .container{
+    width: 60%;
+}
+
+#landing-page label{
+    margin-left: 14px;
+}
+
+#landing-page input, textarea{
+    border-radius: 20px;
+}
+
+
+.campo-lp{
+    text-align: left;
+    height: 20px;
+}
+
+.rodape{
+    background-color: #25091e;
+    box-shadow: 0 0 50px rgba(0,0,0,.4);
+
+/*    border-radius: 100px 240px 100px  80%/300px;*/
+}
+
+#contato{
+    text-decoration: none;
+    color: white;
+    margin: auto ;
+    font-size: 18px;
+
+}
+
+#contato img{
+    height: 35px;
+    margin-top: 7px;
+    margin-right: 10px;
+    transition: all ease-out 0.4s;
+}
+
+#contato :hover {
+    box-shadow: 0 0 10px rgba(218, 218, 218, 0.4);
+    transform: scale(1.20);
+    border-radius: 100%;
+}
+
+
+
+#logo-circulo img{
+    transition: all ease-out 0.5s;
+    border-radius: 100%;
+    border-width: 0;
+    animation: pulsar 1s infinite alternate;
+    margin-top: -140px;
+    margin-left: -50px;
+    width: 350px; 
+    border-radius: 100%; 
+}
+
+@keyframes pulsar {
+  from {
+    transform: scale(0.98);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#logo-circulo img:hover{
+    transform: scale(1.05);
+}
+
+#logo-footer{
+    margin-top: 10px; 
+    padding-left: 100px;
+}
+
+#bloco-contato{
+    margin-top: 40px; 
+    padding-left: 50px;
+}
+
+#footer .row{
+    margin:  0;
+}
+
+
+

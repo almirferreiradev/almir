@@ -1,0 +1,50 @@
+/*  PAINEL SOBRE */
+
+#sobre{
+    border-width: thick;
+    min-height: 890px;
+    border-radius: 240px 2400px 2400px 50%/100px;
+}
+
+.sobre-animacao{
+    animation:backwards delay-sobre 2s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    background-color: var(--roxo);
+    /* background-color:whitesmoke; */
+}
+.texto-sobre{
+  color: #e2dee1; 
+  text-align:justify; 
+  margin-left: 20px; 
+  padding: 20px; 
+  height:350px; 
+  background-color: #612a51;  
+  border-radius: 20px 20px 20px 50%/40px;
+}
+
+@keyframes delay-sobre {
+    from {
+      transform: translateY(40px);
+      opacity: 0.9;
+    }
+    to {
+      transform: translateY(0px);
+        opacity: 1;
+    }
+  } 
+
+#painel-video{
+    margin-top: 70px;
+}
+
+.video{
+    width:  95%; 
+    height:  280px;
+}
+
+
+#slider .row{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
