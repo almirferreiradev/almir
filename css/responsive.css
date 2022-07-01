@@ -25,11 +25,32 @@
         top: -20px;
       }
 
+    .balao-amarelo{
+        left: 10px !important;
+        bottom: 160px;
+
+    }
+
     .triangulo-balao-vermelho{
         left: 130px;
       }
-      
+
+      #linha-do-tempo{
+        margin-left: 10px!important;
+    }
+    
+    #ponto-trajetoria{
+        margin-left: 57px!important;
+        margin-left: 100px!important;
+    }
+
+    #formacao, #complementares, #carreira{
+        margin-left: 100px!important;
+        margin-left: 20px!important;
+    }
+
 }
+      
 
 
 /* sm (small) - Para celulares*/
@@ -42,7 +63,7 @@
 
     
     #valores{
-        margin-top: -600px!important;
+        margin-top: -700px!important;
     }
 
     #sobre iframe{
@@ -126,7 +147,7 @@
     }   
 
     #valores{
-        margin-top: -650px !important;
+        margin-top: -750px !important;
     }
 
     #sobre{
@@ -206,7 +227,7 @@
 
     #bloco-contato{
         margin-top: 20px!important; 
-        padding-left: 10px!important;
+        /*padding-left: 10px!important;*/
     }
 
 
