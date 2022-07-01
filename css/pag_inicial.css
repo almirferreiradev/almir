@@ -161,7 +161,7 @@
 }
 
 .balao-amarelo{
-  background-color: var(--roxo);
+  background-color: var(--roxo-claro);
   width: 180px;
   height: 70px;
   transform: scaleX(0%);
@@ -184,7 +184,7 @@
   position: absolute;
   bottom: -50px;
   right: 20px;
-  border-top: 70px solid var(--roxo); 
+  border-top: 70px solid var(--roxo-claro); 
   border-right: 7px solid transparent;
   border-left: 28px solid transparent; 
   transform:  rotate(-40deg);
