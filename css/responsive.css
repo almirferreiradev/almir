@@ -1,6 +1,21 @@
 
 @media (max-width: 575.98px) { 
 
+    .navbar-toggler {
+        display: none;
+    }
+
+    #header .navbar-collapse  {
+        display: none;    
+    }
+
+    #title{
+    margin-top: 50px;
+    }
+    
+    .img-eu{
+    margin-top: 30px;
+    }
 
     #sobre{
         height: 2700px!important;
@@ -36,9 +51,14 @@
       }
 
       #linha-do-tempo{
-        margin-left: 10px!important;
+        /* margin-left: 10px!important; */
+        display: none;
     }
     
+    #depoimentos{
+        display: none;
+    }
+
     #ponto-trajetoria{
         margin-left: 57px!important;
         margin-left: 100px!important;
